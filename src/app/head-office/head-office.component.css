@@ -1,0 +1,27 @@
+.container {
+    padding: 40px 0px 40px 0px
+}
+ .col-md-4 h2 {
+    background: #4385f5;
+    color: #fff;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 18px;
+    padding: 15px 20px;
+    margin-top: 0px;
+
+ }
+ ul{
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 1rem;
+    list-style: none;
+ }
+  .col-md-4 li {
+    width: 100%;
+    float: left;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+.left_side{
+    padding-left: 30px;
+}

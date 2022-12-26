@@ -1,0 +1,59 @@
+
+.registration_number_section {
+    background: #f6f6f6;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    position: relative;
+}
+
+ h2 {
+    background: #4285f4;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    padding: 15px;
+    margin-top: 50px;
+}
+.registration_number_section label {
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 16px;
+    margin-top: 10px;
+}
+.registration_number_section input, .registration_number_section select {
+    border: 0px;
+    background: #fff;
+    padding-left: 0px;
+    font-style: italic;
+    height: 46px;
+    margin-bottom: 15px;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0px;
+    padding-left: 15px;
+}
+.registration_number_section input[type="submit"] {
+    background: #328e4e;
+    height: 41px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+    width: 116px;
+    box-shadow: 1px 1px 36px rgb(0 0 0 / 20%);
+    margin-top: 25px;
+    border-radius: 6px;
+}
+.registration_number_section button {
+    background: #ec971f;
+    height: 41px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+    width: 116px;
+    box-shadow: 1px 1px 36px rgb(0 0 0 / 20%);
+    margin-top: 25px;
+    float: left;
+    border-radius: 6px;
+}

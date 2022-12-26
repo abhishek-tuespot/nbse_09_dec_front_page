@@ -1,0 +1,14 @@
+.scendorycourses h2 {
+    background: #4385f5;
+    color: #fff;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    margin-top: 60px;
+    padding: 12px 30px;
+    font-size: 21px;
+}
+.scendorycourses h5 {
+    font-size: 15px;
+    padding: 5px 30px;
+    line-height: 26px;
+    /* font-family: 'Conv_FontsFree-Net-SFProDisplay-Light'; */
+}

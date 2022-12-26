@@ -1,0 +1,41 @@
+
+.form_page {
+    padding-top: 50px;
+}
+.form_page #example_filter label input {
+    width: 100%;
+    float: left;
+    margin: 0px;
+    border: 0px solid #191919;
+    height: 43px;
+    padding-left: 15px;
+    font-size: 16px;
+    margin-top: -24px;
+    outline: none;
+}
+.form_page #example_filter label:after {
+    width: 210px;
+    height: 43px;
+    color: #fff;
+    content: "Search";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: #328e4e;
+    padding-top: 10px;
+    padding-right: 80px;
+    cursor: pointer;
+}
+.row {
+    margin-right: -15px
+
+;
+    margin-left: -15px;
+}
+.form_page #example_filter, .form_page #example_filter label {
+    width: 100%;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: right;
+    text-align: right;
+}

@@ -1,0 +1,30 @@
+<!-- <app-header></app-header> -->
+<section class="important-approvals">
+    <div class="container">	
+        <div class="row">
+            <div class="col-md-10">
+                <input type="text" class="form-control">
+            </div>
+            <div class="col-md-2">
+                <button class="btn  btn-block btn-success" style="margin-left:-30px">Search</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-md-offset-1">
+                <h6>English Name</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column" *ngFor="let data of approvalsData">
+                <div class="card">
+                  
+                    <p style="padding-top:5px">{{data.documentInEnglish}}</p>
+                    <span>
+                    <p>Download</p>
+                    <p><i class="fa fa-download"><a href={{data.file}} download></a></i></p></span>
+                  </div>
+            </div>
+            </div>
+            </div>
+</section>
+<!-- <app-footer></app-footer> -->

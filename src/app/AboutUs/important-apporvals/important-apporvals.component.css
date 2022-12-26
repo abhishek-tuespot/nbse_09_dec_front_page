@@ -1,0 +1,28 @@
+.important-approvals {
+    padding-top: 50px;
+    background: #f6f6f6;
+    padding-bottom: 50px;
+}
+h6{
+    background-color: #4285f4;
+    color: white;
+    margin-top: 15px;
+    width: 98%;
+    padding: 10px;
+    padding-left: 35px;
+}
+.card{
+    /* padding: 15px; */
+    text-align: center;
+    margin-left: 20px;
+    width: 250px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+span{
+    color:green;
+    padding-top: 0px;
+}
+.fa{
+    font-size: 25px;
+}

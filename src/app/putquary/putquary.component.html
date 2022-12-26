@@ -1,0 +1,49 @@
+<div class="container-fluid container1 " style="background: #f6f6f6;padding-bottom: 50px;">
+    <div class="row">
+        <div class="col-md-3">
+            <app-left-side-bar-content></app-left-side-bar-content>
+        </div>
+        <!-- =======body====== -->
+        <div class="col-sm-6">
+            <div class="container-fluid mt-5 putquaryhead_container">
+                <h5 class="putquaryhead">Put quary</h5>
+                <div class="row mt-5">
+                    <div class="col-sm-12">
+                        <div class="row form-group">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="NAME" name="name" required="" [(ngModel)]="show.name">
+                            </div>
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="MOBILE NO" name="mobileno"
+                                    required="" [(ngModel)]="show.mobile">
+                            </div>
+                        </div>
+
+                        <div class="row form-group">
+                            <div class="col-sm-6">
+                                <input type="text" class="form-control" placeholder="E-MAIL" name="email" required="" [(ngModel)]="show.email">
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <textarea placeholder="MESSAGE" class="msgbox" name="msg" required="" [(ngModel)]="show.message"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"></div>
+                    <div class="col-sm-4">
+                        <input type="submit" class="btn btn-success btn-block submit_btn" value="Submit" name="inquirysubmit" (click)="insertdata()">
+                    </div>
+                    <div class="col-sm-4"></div>
+                </div>
+            </div>
+        </div>
+        <!-- =======/body====== -->
+        <div class="col-md-3">
+            <app-right-side-bar-contant></app-right-side-bar-contant>
+        </div>
+    </div>
+</div>

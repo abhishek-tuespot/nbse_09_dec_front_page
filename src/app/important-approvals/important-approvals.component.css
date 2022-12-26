@@ -1,0 +1,25 @@
+.fjfuf table.dataTable.stripe tbody tr.odd, .fjfuf table.dataTable.display tbody tr.odd, .fjfuf table.dataTable.stripe tbody tr.even, .fjfuf table.dataTable.display tbody tr.even {
+    width: 25%;
+    float: left;
+    background-color: transparent !important;
+    border: 15px solid #f6f6f6;
+}
+div.dataTables_wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.form_page th {
+    background: #4285f4 !important;
+    color: #fff;
+    font-weight: 500 !important;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    padding-top: 12px !important;
+    border-bottom: 0px !important;
+    font-size: 17px;
+    border-right: 10px solid #fff;
+    border-left: 10px solid #fff;
+}
+.form_page.fjfuf th {
+    border-right: 0px solid #fff;
+    border-left: 0px solid #fff;
+}

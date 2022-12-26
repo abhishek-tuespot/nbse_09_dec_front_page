@@ -1,0 +1,31 @@
+.govt_notification{
+
+    background-color: #4285f4;
+
+    color:white;
+
+    text-align: center;
+
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+
+    font-size: 20px;
+
+    padding: 10px 10px 10px 25px;
+    margin-top: 50px;
+    padding: 13px;
+    height: 48px;
+    margin-bottom: 16px;
+
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}

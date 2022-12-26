@@ -1,0 +1,64 @@
+.main_container
+{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.scendorycourses h2 {
+    background: #4385f5;
+    color: #fff;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    margin-top: 60px;
+    padding: 12px 30px;
+    font-size: 21px;
+}
+.content_pdd
+{
+    padding: 0px 40px;
+}
+.scendorycourses h6 {
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    margin-right: 35px;
+    margin-top: 25px;
+    font-size: 22px;
+}
+.course_secondary_bth
+{
+    display: flex;
+}
+.scendorycourses h3 {
+    background: #328e4f;
+    color: #fff;
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+    padding: 12px 30px;
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.datatable
+{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.tablehead
+{
+    background: #fedf5d;
+}
+tbody
+{
+border: 1px solid black;
+}
+.srno{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+.code_subject
+{
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 35px; 
+}

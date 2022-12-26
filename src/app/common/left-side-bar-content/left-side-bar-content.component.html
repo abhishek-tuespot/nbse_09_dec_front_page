@@ -1,0 +1,57 @@
+<div class="col-sm-12 left_side">
+   <div class="imp_link" style="text-align:center;">Important Links</div>
+
+   <ul class="left_first_ul">
+      <li><a routerLink="/approvals">Important Approvals</a></li>
+      <li><a routerLink="#">Result</a></li>
+      <li><a routerLink="#">Online Admission</a></li>
+      <li><a routerLink="#">COBSE &amp; MHRD</a></li>
+      <li><a routerLink="#">Donation</a></li>
+      <li><a routerLink="#">Requirements and Tenders</a></li>
+      <li><a routerLink="#">HOD</a></li>
+      <li><a routerLink="#">Swach Bharat Mission</a></li>
+      <li><a routerLink="#">Ex. Employee Detail</a></li>
+   </ul>
+   <div class="gov_noti" style="text-align:center;">Govt. Notifications</div>
+   <!--	<input type="button" class="gov_noti" value="Govt. Notifications"> -->
+   <div class="listorder5" *ngFor="let govtData of notificationData">
+      <a href="{{fileUrl}}{{govtData.file}}" target="_blank"><img src="{{fileUrl}}{{govtData.file}}"
+            class="img-responsive mySlides1 w3-animate-fading"
+            style="max-width: 80%; margin: 0px auto; max-height: 360px; display: none;"></a>
+
+
+   </div>
+
+   <div class="imp_pol" style="text-align:center;">Polices/Schemes/Acts</div>
+   <!--	<input type="button" class="imp_pol" value="Polices/Schemes/Acts">-->
+   <ul class="left_third_ul"     style="padding-left: 0px">
+      <marquee direction="down" *ngFor="let data of policie" class="marquee" scrollamount="2" onmouseover="this.stop();"
+         onmouseout="this.start();" style="height:400px">
+
+
+         <li > <a href="{{fileUrl}}{{data.file}}" target="_blank"><b>{{data.documentInEnglish}}</b> <img src="assets/images/newicon.gif" height="15"></a></li>
+
+      </marquee>
+   </ul>
+   <!--ENDS POLICIES/SCHEMES/ACTS Forms-->
+
+
+   <h5 style="text-align:center;">Global Tie Ups</h5>
+   <ul class="list-inline list-unstyled r" style="text-align:center;">
+      <li class="">
+         <a class="" data-toggle="modal" data-target="#globalimg3">
+            <img src="assets/images/ISO2015.jpg" class="img-responsive zoom-in"
+               style=" max-width: 200px; margin-top: 15px;">
+         </a>
+      </li>
+
+   </ul>
+   <div class="modal fade" id="globalimg3" tabindex="-1" role="dialog">
+      <button type="button" class="close" data-dismiss="modal">Close</button>
+      <div class="modal-dialog" role="document">
+         <img alt="" src="#" class="img-responsive" style="height:80%; width:100%">
+      </div>
+   </div>
+
+
+</div>

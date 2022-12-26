@@ -1,0 +1,151 @@
+element.style {
+    background: rgb(66, 133, 244);
+}
+.welcome_about {
+    background:url("/assets/images/about_back.png");
+    color: #fff;
+    background-repeat: no-repeat;
+    padding: 30px;
+    margin-top: 50px;
+    /* padding-bottom: 137px; */
+    background-size: 100%;
+}
+.welcome_about, .counter {
+    background-size: cover;
+}
+.counter {
+    background: url("/assets/images/counter_back.png");
+    padding: 18px 0;
+    margin-top: 20px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.counter .col-md-3 {
+    text-align: center;
+    margin-top: 20px;
+    border-right: 1px solid #ededed;
+}
+.abdul-ajp {
+    margin-top: 50px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 1px 17px rgb(0 0 0 / 10%);
+}
+.abdul-ajp h4 {
+    color: #4d8fc8;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+    font-size: 24px;
+}
+.abdul-ajp h4 span {
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-weight: 600;
+}
+
+.our-mission {
+    margin-top: 30px;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 1px 1px 17px rgb(0 0 0 / 10%);
+}
+.govt-logo {
+    position: relative;
+    margin-top: 60px;
+    border-top: 1px solid #4d8fc8;
+    padding-top: 35px;
+}
+.donate_btn {
+    background: #4d8fc8;
+    color: #fff;
+    position: absolute;
+    right: 0px;
+    top: -21px;
+    padding: 8px 22px;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 29px rgb(0 0 0 / 10%);
+}
+carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.three_color .col-md-4 {
+    margin-top: 80px;
+}
+.three_color img {
+    max-height: 75px;
+}
+.pink_color h4 {
+    color: #f16da6;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 18px;
+    margin-top: 20px;
+}
+.three_color .col-md-4 p {
+    color: #302f2f;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+    font-size: 15px;
+    text-align: justify;
+    line-height: 23px;
+}
+.sky_color h4 {
+    color: #00aec4;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 19px;
+    margin-top: 20px;
+}
+.green_color h4 {
+    color: #008e7f;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 19px;
+    margin-top: 20px;
+}
+.our-mission h4 {
+    color: #328e4e;
+    font-size: 24px;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+}
+.our-mission p {
+    color: #191919;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    font-size: 17px;
+    margin-top: 20px;
+}
+.welcome_about p {
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Light';
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    padding-top: 20px;
+    text-align: justify;
+}
+.putquaryhead_container .putquaryhead
+{
+    background: #4285f4;
+    font-family: 'Conv_FontsFree-Net-SFProDisplay-Regular';
+    color: #fff;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    padding: 16px 10px 10px 23px;
+    border: 0px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.msgbox
+{
+    height: 225px !important;
+    width:100%;
+    padding-left: 10px;
+    border: 0px;
+    padding-top: 10px;
+    color:black;
+}
+.submit_btn
+{
+    height: 50px !important;
+}
